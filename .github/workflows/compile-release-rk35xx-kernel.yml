@@ -21,6 +21,7 @@ on:
           - armbian/linux-rockchip@rk-6.1-rkr3
           - ccu6/linux-rockchip@rk-6.1-rkr3
           - ccu6/linux-5.10.y-rk35xx
+          - 82452588/linux-5.10.y-rk35xx
       kernel_version:
         description: "Select kernel version"
         required: false
@@ -82,6 +83,7 @@ on:
           - -winter-storing
           - -yourname
           - -ccu6
+          - -82452588
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
