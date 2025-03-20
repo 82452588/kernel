@@ -22,6 +22,7 @@ on:
           - ccu6/linux-rockchip@rk-6.1-rkr3
           - ccu6/linux-5.10.y-rk35xx
           - 82452588/linux-5.10.y-rk35xx
+          - 82452588/linux-6.1.y
       kernel_version:
         description: "Select kernel version"
         required: false
